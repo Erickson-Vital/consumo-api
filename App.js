@@ -2,12 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Routes from './src/routes/index'
+import Home from './screens/home/index'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Routes />
+      <Home />
     </View>
   );
 }
